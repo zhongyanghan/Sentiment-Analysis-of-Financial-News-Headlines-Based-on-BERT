@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints & large binaries
+*.bin
+*.pt
+*.pth
+!results/*.png
+
+# WordCloud font (需自行准备中文字体)
+simkai.ttf
+
+# Logs
+*.log
